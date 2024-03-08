@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input class="input-city" placeholder="Nome da cidade" />
+
+      <button onclick="clickBtn()">
+        <img
+          class="img-btn"
+          src="https://www.svgrepo.com/show/488200/find.svg"
+          alt="search"
+        />
+      </button>
+      <div class="box">
+        <h2 class="city">Tempo em sua cidade</h2>
+
+        <p class="temp">00°C</p>
+        <div class="weather">
+          <img
+            class="img-previsao"
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt="icone-info-tempo"
+          />
+          <p class="text-previsao">Nublado</p>
+        </div>
+        <p class="umidade">Umidade: 00%</p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="./script.js"></script>
